@@ -3,6 +3,8 @@ using Photon.Pun;
 using Photon.Realtime;
 using TMPro;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
+
 
 public class RoomManager : MonoBehaviourPunCallbacks
 {
@@ -11,9 +13,21 @@ public class RoomManager : MonoBehaviourPunCallbacks
     [SerializeField] private Transform content;
 
     private List<RoomInfo> allRoomsInfo = new List<RoomInfo>();
+
+    //private GameObject player;
+    //[SerializeField] private GameObject player_pref;
+
+    private PlayerInstantiater playerInstantiater;
+
     void Start()
     {
-        
+        //if (SceneManager.GetActiveScene().name == "game")
+        //{
+        //    player = PhotonNetwork.Instantiate(player_pref.name, Vector3.zero, Quaternion.identity);
+        //    //player.GetComponent<SpriteRenderer>().color = Color.green; // «м≥нити кол≥р гравц€
+        //}
+
+        playerInstantiater = GetComponent<PlayerInstantiater>();
     }
 
     public void CreateButton()
@@ -82,6 +96,7 @@ public class RoomManager : MonoBehaviourPunCallbacks
 
     public override void OnLeftRoom()
     {
+        PhotonNetwork.Destroy(playerInstantiater.gameObject);
         PhotonNetwork.LoadLevel("main");
     }
 }
