@@ -39,6 +39,13 @@ MonoBehaviour:
   - DestroySpaceship
   - Fire
   - RespawnSpaceship
+  - Send_ChangeSize
+  - Point_Instantiate
+  - OnTriggerEnter2D
+  - Send_ChangeSizeForKillEnemy
+  - Send_ChangeSizeWhoKill
+  - Point_Instantiate1
+  - Point_InstantiateAfterPointKill
   DisableAutoOpenWizard: 1
   ShowSettings: 1
   DevRegionSetOnce: 0

@@ -3,8 +3,8 @@ using Photon.Pun;
 using Photon.Realtime;
 using TMPro;
 using System.Collections.Generic;
-using UnityEngine.SceneManagement;
-
+using System;
+using ExitGames.Client.Photon;
 
 public class RoomManager : MonoBehaviourPunCallbacks
 {
@@ -14,20 +14,15 @@ public class RoomManager : MonoBehaviourPunCallbacks
 
     private List<RoomInfo> allRoomsInfo = new List<RoomInfo>();
 
-    //private GameObject player;
-    //[SerializeField] private GameObject player_pref;
-
     private PlayerInstantiater playerInstantiater;
+
+    //[SerializeField] private GameObject point_pref;
 
     void Start()
     {
-        //if (SceneManager.GetActiveScene().name == "game")
-        //{
-        //    player = PhotonNetwork.Instantiate(player_pref.name, Vector3.zero, Quaternion.identity);
-        //    //player.GetComponent<SpriteRenderer>().color = Color.green; // Змінити колір гравця
-        //}
-
         playerInstantiater = GetComponent<PlayerInstantiater>();
+
+        PhotonPeer.RegisterType(typeof(Vector2Int), 242, SerializeVector2Int, DeserializeVector2Int);
     }
 
     public void CreateButton()
@@ -45,6 +40,11 @@ public class RoomManager : MonoBehaviourPunCallbacks
     public override void OnCreatedRoom()
     {
         Debug.Log("Створена кімната: " + PhotonNetwork.CurrentRoom.Name);
+        //Vector3 pos = new Vector3(Random.Range(-5f, 5f), Random.Range(-5f, 5f));
+        //for (int i = 0; i < 10; i++)
+        //{
+        //    PhotonNetwork.InstantiateRoomObject(point_pref.name, pos, Quaternion.identity);
+        //}
     }
 
     public override void OnCreateRoomFailed(short returnCode, string message)
@@ -77,6 +77,11 @@ public class RoomManager : MonoBehaviourPunCallbacks
     public override void OnJoinedRoom()
     {
         PhotonNetwork.LoadLevel("game");
+        //Vector3 pos = new Vector3(Random.Range(-5f, 5f), Random.Range(-5f, 5f));
+        //for (int i = 0; i < 10; i++)
+        //{
+        //    PhotonNetwork.InstantiateRoomObject(point_pref.name, pos, Quaternion.identity);
+        //}
     }
 
     public void JoinRandomButton()
@@ -87,6 +92,11 @@ public class RoomManager : MonoBehaviourPunCallbacks
     public void JoinRoom()
     {
         PhotonNetwork.JoinRoom(roomName.text);
+        //Vector3 pos = new Vector3(Random.Range(-5f, 5f), Random.Range(-5f, 5f));
+        //for (int i = 0; i < 10; i++)
+        //{
+        //    PhotonNetwork.InstantiateRoomObject(point_pref.name, pos, Quaternion.identity);
+        //}
     }
 
     public void LeaveButton()
@@ -98,5 +108,26 @@ public class RoomManager : MonoBehaviourPunCallbacks
     {
         PhotonNetwork.Destroy(playerInstantiater.gameObject);
         PhotonNetwork.LoadLevel("main");
+    }
+
+    public static object DeserializeVector2Int(byte[] data)
+    {
+        Vector2Int rezult = new Vector2Int();
+
+        rezult.x = BitConverter.ToInt32(data, 0);
+        rezult.y = BitConverter.ToInt32(data, 4);
+
+        return rezult;
+    }
+
+    public static byte[] SerializeVector2Int(object obj)
+    {
+        Vector2Int vector = (Vector2Int)obj;
+        byte[] rezult = new byte[8];
+
+        BitConverter.GetBytes(vector.x).CopyTo(rezult, 0);
+        BitConverter.GetBytes(vector.y).CopyTo(rezult, 4);
+
+        return rezult;
     }
 }

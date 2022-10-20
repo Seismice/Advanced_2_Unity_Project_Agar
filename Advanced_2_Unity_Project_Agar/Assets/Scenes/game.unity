@@ -123,6 +123,179 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &36369280
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 36369281}
+  - component: {fileID: 36369282}
+  m_Layer: 0
+  m_Name: Corals (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &36369281
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 36369280}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -7.14, y: -4.26, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1035773356}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &36369282
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 36369280}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25811224a8e34e34db1f9e3db23730d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coral_pref:
+  - {fileID: 4916887208621170808, guid: cd3ec07aedbd685498579e3e2cabbe17, type: 3}
+  - {fileID: 3475885561739985868, guid: 50944680aa0ab2c4d9b1273a0d530002, type: 3}
+  - {fileID: 4245933108415537184, guid: 0f52f767c0c92214089ec3d167713a41, type: 3}
+  - {fileID: 5445870656964918526, guid: 617890a906a38d54ca294be2d4ed5ef9, type: 3}
+  - {fileID: 3255613294796919355, guid: 78eceb4bdf5a33a48b7fdce818e5e51e, type: 3}
+  - {fileID: 6680910749519522786, guid: ae869ec5f63ebf94a92d9016499c0b9a, type: 3}
+  - {fileID: 2130656330987501936, guid: ee99fbdfcf302be4e8693d8ca331aac8, type: 3}
+  - {fileID: 2984906009131609274, guid: f6d0d9a6c6ff59a42b16666b537573f6, type: 3}
+--- !u!1 &95296096
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 95296098}
+  - component: {fileID: 95296097}
+  m_Layer: 0
+  m_Name: RightWall
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!212 &95296097
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 95296096}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &95296098
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 95296096}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 20.69, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 40.659798, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &133437929
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 133437930}
+  m_Layer: 0
+  m_Name: Corals (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &133437930
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 133437929}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -7.925026, y: 6.6993914, z: 0.040190637}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 535560328}
+  - {fileID: 1409566257}
+  - {fileID: 1149439073}
+  - {fileID: 504418826}
+  - {fileID: 584921049}
+  m_Father: {fileID: 916515933}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &227395040
 GameObject:
   m_ObjectHideFlags: 0
@@ -201,6 +374,59 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 227395040}
   m_CullTransparentMesh: 1
+--- !u!1 &231768305
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 231768306}
+  - component: {fileID: 231768307}
+  m_Layer: 0
+  m_Name: Corals (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &231768306
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 231768305}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 3.87, y: -5.24, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 250925154}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &231768307
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 231768305}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25811224a8e34e34db1f9e3db23730d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coral_pref:
+  - {fileID: 4916887208621170808, guid: cd3ec07aedbd685498579e3e2cabbe17, type: 3}
+  - {fileID: 3475885561739985868, guid: 50944680aa0ab2c4d9b1273a0d530002, type: 3}
+  - {fileID: 4245933108415537184, guid: 0f52f767c0c92214089ec3d167713a41, type: 3}
+  - {fileID: 5445870656964918526, guid: 617890a906a38d54ca294be2d4ed5ef9, type: 3}
+  - {fileID: 3255613294796919355, guid: 78eceb4bdf5a33a48b7fdce818e5e51e, type: 3}
+  - {fileID: 6680910749519522786, guid: ae869ec5f63ebf94a92d9016499c0b9a, type: 3}
+  - {fileID: 2130656330987501936, guid: ee99fbdfcf302be4e8693d8ca331aac8, type: 3}
+  - {fileID: 2984906009131609274, guid: f6d0d9a6c6ff59a42b16666b537573f6, type: 3}
 --- !u!1 &243028397
 GameObject:
   m_ObjectHideFlags: 0
@@ -269,6 +495,95 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &250925153
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 250925154}
+  m_Layer: 0
+  m_Name: Corals (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &250925154
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 250925153}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 12.364974, y: -7.0506086, z: 0.040190637}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 438528684}
+  - {fileID: 231768306}
+  - {fileID: 1427760645}
+  - {fileID: 303090277}
+  - {fileID: 1759508336}
+  m_Father: {fileID: 916515933}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &303090276
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 303090277}
+  - component: {fileID: 303090278}
+  m_Layer: 0
+  m_Name: Corals (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &303090277
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 303090276}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -5.28, y: 3.24, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 250925154}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &303090278
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 303090276}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25811224a8e34e34db1f9e3db23730d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coral_pref:
+  - {fileID: 4916887208621170808, guid: cd3ec07aedbd685498579e3e2cabbe17, type: 3}
+  - {fileID: 3475885561739985868, guid: 50944680aa0ab2c4d9b1273a0d530002, type: 3}
+  - {fileID: 4245933108415537184, guid: 0f52f767c0c92214089ec3d167713a41, type: 3}
+  - {fileID: 5445870656964918526, guid: 617890a906a38d54ca294be2d4ed5ef9, type: 3}
+  - {fileID: 3255613294796919355, guid: 78eceb4bdf5a33a48b7fdce818e5e51e, type: 3}
+  - {fileID: 6680910749519522786, guid: ae869ec5f63ebf94a92d9016499c0b9a, type: 3}
+  - {fileID: 2130656330987501936, guid: ee99fbdfcf302be4e8693d8ca331aac8, type: 3}
+  - {fileID: 2984906009131609274, guid: f6d0d9a6c6ff59a42b16666b537573f6, type: 3}
 --- !u!1 &331412838
 GameObject:
   m_ObjectHideFlags: 0
@@ -281,6 +596,8 @@ GameObject:
   - component: {fileID: 331412841}
   - component: {fileID: 331412840}
   - component: {fileID: 331412842}
+  - component: {fileID: 331412844}
+  - component: {fileID: 331412843}
   m_Layer: 5
   m_Name: LoginInputField (TMP)
   m_TagString: Untagged
@@ -445,6 +762,116 @@ MonoBehaviour:
   m_isRichTextEditingAllowed: 0
   m_LineLimit: 0
   m_InputValidator: {fileID: 0}
+--- !u!114 &331412843
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 331412838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 331412844}
+          m_TargetAssemblyTypeName: ButtonEfect, Assembly-CSharp
+          m_MethodName: OnPointerEnter
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventID: 1
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 331412844}
+          m_TargetAssemblyTypeName: ButtonEfect, Assembly-CSharp
+          m_MethodName: OnPointerExit
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+--- !u!114 &331412844
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 331412838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1a0ec46efe3e924b8271cb0f018c146, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &340213373
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 340213374}
+  - component: {fileID: 340213375}
+  m_Layer: 0
+  m_Name: Corals (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &340213374
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 340213373}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 6.75, y: 0.62, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1266380166}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &340213375
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 340213373}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25811224a8e34e34db1f9e3db23730d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coral_pref:
+  - {fileID: 4916887208621170808, guid: cd3ec07aedbd685498579e3e2cabbe17, type: 3}
+  - {fileID: 3475885561739985868, guid: 50944680aa0ab2c4d9b1273a0d530002, type: 3}
+  - {fileID: 4245933108415537184, guid: 0f52f767c0c92214089ec3d167713a41, type: 3}
+  - {fileID: 5445870656964918526, guid: 617890a906a38d54ca294be2d4ed5ef9, type: 3}
+  - {fileID: 3255613294796919355, guid: 78eceb4bdf5a33a48b7fdce818e5e51e, type: 3}
+  - {fileID: 6680910749519522786, guid: ae869ec5f63ebf94a92d9016499c0b9a, type: 3}
+  - {fileID: 2130656330987501936, guid: ee99fbdfcf302be4e8693d8ca331aac8, type: 3}
+  - {fileID: 2984906009131609274, guid: f6d0d9a6c6ff59a42b16666b537573f6, type: 3}
 --- !u!1 &355524260
 GameObject:
   m_ObjectHideFlags: 0
@@ -737,6 +1164,165 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 381729987}
   m_CullTransparentMesh: 1
+--- !u!1 &389448931
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 389448932}
+  - component: {fileID: 389448933}
+  m_Layer: 0
+  m_Name: Corals (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &389448932
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 389448931}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 3.87, y: -5.24, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 605107465}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &389448933
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 389448931}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25811224a8e34e34db1f9e3db23730d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coral_pref:
+  - {fileID: 4916887208621170808, guid: cd3ec07aedbd685498579e3e2cabbe17, type: 3}
+  - {fileID: 3475885561739985868, guid: 50944680aa0ab2c4d9b1273a0d530002, type: 3}
+  - {fileID: 4245933108415537184, guid: 0f52f767c0c92214089ec3d167713a41, type: 3}
+  - {fileID: 5445870656964918526, guid: 617890a906a38d54ca294be2d4ed5ef9, type: 3}
+  - {fileID: 3255613294796919355, guid: 78eceb4bdf5a33a48b7fdce818e5e51e, type: 3}
+  - {fileID: 6680910749519522786, guid: ae869ec5f63ebf94a92d9016499c0b9a, type: 3}
+  - {fileID: 2130656330987501936, guid: ee99fbdfcf302be4e8693d8ca331aac8, type: 3}
+  - {fileID: 2984906009131609274, guid: f6d0d9a6c6ff59a42b16666b537573f6, type: 3}
+--- !u!1 &422079551
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 422079552}
+  - component: {fileID: 422079553}
+  m_Layer: 0
+  m_Name: Corals
+  m_TagString: Untagged
+  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &422079552
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 422079551}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.2, y: -0.36, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1266380166}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &422079553
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 422079551}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25811224a8e34e34db1f9e3db23730d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coral_pref:
+  - {fileID: 4916887208621170808, guid: cd3ec07aedbd685498579e3e2cabbe17, type: 3}
+  - {fileID: 3475885561739985868, guid: 50944680aa0ab2c4d9b1273a0d530002, type: 3}
+  - {fileID: 4245933108415537184, guid: 0f52f767c0c92214089ec3d167713a41, type: 3}
+  - {fileID: 5445870656964918526, guid: 617890a906a38d54ca294be2d4ed5ef9, type: 3}
+  - {fileID: 3255613294796919355, guid: 78eceb4bdf5a33a48b7fdce818e5e51e, type: 3}
+  - {fileID: 6680910749519522786, guid: ae869ec5f63ebf94a92d9016499c0b9a, type: 3}
+  - {fileID: 2130656330987501936, guid: ee99fbdfcf302be4e8693d8ca331aac8, type: 3}
+  - {fileID: 2984906009131609274, guid: f6d0d9a6c6ff59a42b16666b537573f6, type: 3}
+--- !u!1 &438528683
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 438528684}
+  - component: {fileID: 438528685}
+  m_Layer: 0
+  m_Name: Corals
+  m_TagString: Untagged
+  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &438528684
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 438528683}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.2, y: -0.36, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 250925154}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &438528685
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 438528683}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25811224a8e34e34db1f9e3db23730d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coral_pref:
+  - {fileID: 4916887208621170808, guid: cd3ec07aedbd685498579e3e2cabbe17, type: 3}
+  - {fileID: 3475885561739985868, guid: 50944680aa0ab2c4d9b1273a0d530002, type: 3}
+  - {fileID: 4245933108415537184, guid: 0f52f767c0c92214089ec3d167713a41, type: 3}
+  - {fileID: 5445870656964918526, guid: 617890a906a38d54ca294be2d4ed5ef9, type: 3}
+  - {fileID: 3255613294796919355, guid: 78eceb4bdf5a33a48b7fdce818e5e51e, type: 3}
+  - {fileID: 6680910749519522786, guid: ae869ec5f63ebf94a92d9016499c0b9a, type: 3}
+  - {fileID: 2130656330987501936, guid: ee99fbdfcf302be4e8693d8ca331aac8, type: 3}
+  - {fileID: 2984906009131609274, guid: f6d0d9a6c6ff59a42b16666b537573f6, type: 3}
 --- !u!1 &458776612
 GameObject:
   m_ObjectHideFlags: 0
@@ -790,6 +1376,307 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Padding: {x: -8, y: -5, z: -8, w: -5}
   m_Softness: {x: 0, y: 0}
+--- !u!1 &485403793
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 485403794}
+  m_Layer: 0
+  m_Name: Corals (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &485403794
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 485403793}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -7.765026, y: 19.139393, z: 0.040190637}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1778350312}
+  - {fileID: 1962977282}
+  - {fileID: 1377618171}
+  - {fileID: 764091893}
+  - {fileID: 1539892604}
+  m_Father: {fileID: 916515933}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &485405750
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 485405751}
+  - component: {fileID: 485405752}
+  m_Layer: 0
+  m_Name: Corals (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &485405751
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 485405750}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -7.14, y: -4.26, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1266380166}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &485405752
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 485405750}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25811224a8e34e34db1f9e3db23730d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coral_pref:
+  - {fileID: 4916887208621170808, guid: cd3ec07aedbd685498579e3e2cabbe17, type: 3}
+  - {fileID: 3475885561739985868, guid: 50944680aa0ab2c4d9b1273a0d530002, type: 3}
+  - {fileID: 4245933108415537184, guid: 0f52f767c0c92214089ec3d167713a41, type: 3}
+  - {fileID: 5445870656964918526, guid: 617890a906a38d54ca294be2d4ed5ef9, type: 3}
+  - {fileID: 3255613294796919355, guid: 78eceb4bdf5a33a48b7fdce818e5e51e, type: 3}
+  - {fileID: 6680910749519522786, guid: ae869ec5f63ebf94a92d9016499c0b9a, type: 3}
+  - {fileID: 2130656330987501936, guid: ee99fbdfcf302be4e8693d8ca331aac8, type: 3}
+  - {fileID: 2984906009131609274, guid: f6d0d9a6c6ff59a42b16666b537573f6, type: 3}
+--- !u!1 &488239884
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 488239885}
+  - component: {fileID: 488239886}
+  m_Layer: 0
+  m_Name: Corals (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &488239885
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 488239884}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -5.28, y: 3.24, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1266380166}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &488239886
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 488239884}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25811224a8e34e34db1f9e3db23730d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coral_pref:
+  - {fileID: 4916887208621170808, guid: cd3ec07aedbd685498579e3e2cabbe17, type: 3}
+  - {fileID: 3475885561739985868, guid: 50944680aa0ab2c4d9b1273a0d530002, type: 3}
+  - {fileID: 4245933108415537184, guid: 0f52f767c0c92214089ec3d167713a41, type: 3}
+  - {fileID: 5445870656964918526, guid: 617890a906a38d54ca294be2d4ed5ef9, type: 3}
+  - {fileID: 3255613294796919355, guid: 78eceb4bdf5a33a48b7fdce818e5e51e, type: 3}
+  - {fileID: 6680910749519522786, guid: ae869ec5f63ebf94a92d9016499c0b9a, type: 3}
+  - {fileID: 2130656330987501936, guid: ee99fbdfcf302be4e8693d8ca331aac8, type: 3}
+  - {fileID: 2984906009131609274, guid: f6d0d9a6c6ff59a42b16666b537573f6, type: 3}
+--- !u!1 &504418825
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 504418826}
+  - component: {fileID: 504418827}
+  m_Layer: 0
+  m_Name: Corals (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &504418826
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 504418825}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -5.28, y: 3.24, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 133437930}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &504418827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 504418825}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25811224a8e34e34db1f9e3db23730d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coral_pref:
+  - {fileID: 4916887208621170808, guid: cd3ec07aedbd685498579e3e2cabbe17, type: 3}
+  - {fileID: 3475885561739985868, guid: 50944680aa0ab2c4d9b1273a0d530002, type: 3}
+  - {fileID: 4245933108415537184, guid: 0f52f767c0c92214089ec3d167713a41, type: 3}
+  - {fileID: 5445870656964918526, guid: 617890a906a38d54ca294be2d4ed5ef9, type: 3}
+  - {fileID: 3255613294796919355, guid: 78eceb4bdf5a33a48b7fdce818e5e51e, type: 3}
+  - {fileID: 6680910749519522786, guid: ae869ec5f63ebf94a92d9016499c0b9a, type: 3}
+  - {fileID: 2130656330987501936, guid: ee99fbdfcf302be4e8693d8ca331aac8, type: 3}
+  - {fileID: 2984906009131609274, guid: f6d0d9a6c6ff59a42b16666b537573f6, type: 3}
+--- !u!1 &535560327
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 535560328}
+  - component: {fileID: 535560329}
+  m_Layer: 0
+  m_Name: Corals
+  m_TagString: Untagged
+  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &535560328
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 535560327}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.2, y: -0.36, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 133437930}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &535560329
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 535560327}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25811224a8e34e34db1f9e3db23730d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coral_pref:
+  - {fileID: 4916887208621170808, guid: cd3ec07aedbd685498579e3e2cabbe17, type: 3}
+  - {fileID: 3475885561739985868, guid: 50944680aa0ab2c4d9b1273a0d530002, type: 3}
+  - {fileID: 4245933108415537184, guid: 0f52f767c0c92214089ec3d167713a41, type: 3}
+  - {fileID: 5445870656964918526, guid: 617890a906a38d54ca294be2d4ed5ef9, type: 3}
+  - {fileID: 3255613294796919355, guid: 78eceb4bdf5a33a48b7fdce818e5e51e, type: 3}
+  - {fileID: 6680910749519522786, guid: ae869ec5f63ebf94a92d9016499c0b9a, type: 3}
+  - {fileID: 2130656330987501936, guid: ee99fbdfcf302be4e8693d8ca331aac8, type: 3}
+  - {fileID: 2984906009131609274, guid: f6d0d9a6c6ff59a42b16666b537573f6, type: 3}
+--- !u!1 &584921048
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 584921049}
+  - component: {fileID: 584921050}
+  m_Layer: 0
+  m_Name: Corals (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &584921049
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 584921048}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 6.75, y: 0.62, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 133437930}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &584921050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 584921048}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25811224a8e34e34db1f9e3db23730d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coral_pref:
+  - {fileID: 4916887208621170808, guid: cd3ec07aedbd685498579e3e2cabbe17, type: 3}
+  - {fileID: 3475885561739985868, guid: 50944680aa0ab2c4d9b1273a0d530002, type: 3}
+  - {fileID: 4245933108415537184, guid: 0f52f767c0c92214089ec3d167713a41, type: 3}
+  - {fileID: 5445870656964918526, guid: 617890a906a38d54ca294be2d4ed5ef9, type: 3}
+  - {fileID: 3255613294796919355, guid: 78eceb4bdf5a33a48b7fdce818e5e51e, type: 3}
+  - {fileID: 6680910749519522786, guid: ae869ec5f63ebf94a92d9016499c0b9a, type: 3}
+  - {fileID: 2130656330987501936, guid: ee99fbdfcf302be4e8693d8ca331aac8, type: 3}
+  - {fileID: 2984906009131609274, guid: f6d0d9a6c6ff59a42b16666b537573f6, type: 3}
 --- !u!1 &592481425
 GameObject:
   m_ObjectHideFlags: 0
@@ -801,6 +1688,7 @@ GameObject:
   - component: {fileID: 592481428}
   - component: {fileID: 592481427}
   - component: {fileID: 592481426}
+  - component: {fileID: 592481431}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -874,6 +1762,108 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &592481431
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 592481425}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25cf102efd6e30440b0813820be6a2f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _playerTransform: {fileID: 5494957735446078299, guid: 6ab219822a50b044f98b4d236c81a170, type: 3}
+--- !u!1 &605107464
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 605107465}
+  m_Layer: 0
+  m_Name: Corals(0)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &605107465
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 605107464}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 12.364974, y: 19.919392, z: 0.040190637}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 793931801}
+  - {fileID: 389448932}
+  - {fileID: 975331291}
+  - {fileID: 648970783}
+  - {fileID: 1414369848}
+  m_Father: {fileID: 916515933}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &617377858
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 617377859}
+  - component: {fileID: 617377860}
+  m_Layer: 0
+  m_Name: Corals
+  m_TagString: Untagged
+  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &617377859
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 617377858}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.2, y: -0.36, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1035773356}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &617377860
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 617377858}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25811224a8e34e34db1f9e3db23730d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coral_pref:
+  - {fileID: 4916887208621170808, guid: cd3ec07aedbd685498579e3e2cabbe17, type: 3}
+  - {fileID: 3475885561739985868, guid: 50944680aa0ab2c4d9b1273a0d530002, type: 3}
+  - {fileID: 4245933108415537184, guid: 0f52f767c0c92214089ec3d167713a41, type: 3}
+  - {fileID: 5445870656964918526, guid: 617890a906a38d54ca294be2d4ed5ef9, type: 3}
+  - {fileID: 3255613294796919355, guid: 78eceb4bdf5a33a48b7fdce818e5e51e, type: 3}
+  - {fileID: 6680910749519522786, guid: ae869ec5f63ebf94a92d9016499c0b9a, type: 3}
+  - {fileID: 2130656330987501936, guid: ee99fbdfcf302be4e8693d8ca331aac8, type: 3}
+  - {fileID: 2984906009131609274, guid: f6d0d9a6c6ff59a42b16666b537573f6, type: 3}
 --- !u!1 &619540876
 GameObject:
   m_ObjectHideFlags: 0
@@ -1062,6 +2052,59 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Padding: {x: -8, y: -5, z: -8, w: -5}
   m_Softness: {x: 0, y: 0}
+--- !u!1 &648970782
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 648970783}
+  - component: {fileID: 648970784}
+  m_Layer: 0
+  m_Name: Corals (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &648970783
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 648970782}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -5.28, y: 3.24, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 605107465}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &648970784
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 648970782}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25811224a8e34e34db1f9e3db23730d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coral_pref:
+  - {fileID: 4916887208621170808, guid: cd3ec07aedbd685498579e3e2cabbe17, type: 3}
+  - {fileID: 3475885561739985868, guid: 50944680aa0ab2c4d9b1273a0d530002, type: 3}
+  - {fileID: 4245933108415537184, guid: 0f52f767c0c92214089ec3d167713a41, type: 3}
+  - {fileID: 5445870656964918526, guid: 617890a906a38d54ca294be2d4ed5ef9, type: 3}
+  - {fileID: 3255613294796919355, guid: 78eceb4bdf5a33a48b7fdce818e5e51e, type: 3}
+  - {fileID: 6680910749519522786, guid: ae869ec5f63ebf94a92d9016499c0b9a, type: 3}
+  - {fileID: 2130656330987501936, guid: ee99fbdfcf302be4e8693d8ca331aac8, type: 3}
+  - {fileID: 2984906009131609274, guid: f6d0d9a6c6ff59a42b16666b537573f6, type: 3}
 --- !u!1 &667458797
 GameObject:
   m_ObjectHideFlags: 0
@@ -1518,6 +2561,59 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 757727289}
   m_CullTransparentMesh: 1
+--- !u!1 &764091892
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 764091893}
+  - component: {fileID: 764091894}
+  m_Layer: 0
+  m_Name: Corals (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &764091893
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 764091892}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -5.28, y: 3.24, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 485403794}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &764091894
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 764091892}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25811224a8e34e34db1f9e3db23730d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coral_pref:
+  - {fileID: 4916887208621170808, guid: cd3ec07aedbd685498579e3e2cabbe17, type: 3}
+  - {fileID: 3475885561739985868, guid: 50944680aa0ab2c4d9b1273a0d530002, type: 3}
+  - {fileID: 4245933108415537184, guid: 0f52f767c0c92214089ec3d167713a41, type: 3}
+  - {fileID: 5445870656964918526, guid: 617890a906a38d54ca294be2d4ed5ef9, type: 3}
+  - {fileID: 3255613294796919355, guid: 78eceb4bdf5a33a48b7fdce818e5e51e, type: 3}
+  - {fileID: 6680910749519522786, guid: ae869ec5f63ebf94a92d9016499c0b9a, type: 3}
+  - {fileID: 2130656330987501936, guid: ee99fbdfcf302be4e8693d8ca331aac8, type: 3}
+  - {fileID: 2984906009131609274, guid: f6d0d9a6c6ff59a42b16666b537573f6, type: 3}
 --- !u!1 &764774844
 GameObject:
   m_ObjectHideFlags: 0
@@ -1596,7 +2692,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_TargetDisplay: 0
 --- !u!224 &764774848
 RectTransform:
@@ -1620,6 +2716,165 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1 &793931800
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 793931801}
+  - component: {fileID: 793931802}
+  m_Layer: 0
+  m_Name: Corals
+  m_TagString: Untagged
+  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &793931801
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 793931800}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.2, y: -0.36, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 605107465}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &793931802
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 793931800}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25811224a8e34e34db1f9e3db23730d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coral_pref:
+  - {fileID: 4916887208621170808, guid: cd3ec07aedbd685498579e3e2cabbe17, type: 3}
+  - {fileID: 3475885561739985868, guid: 50944680aa0ab2c4d9b1273a0d530002, type: 3}
+  - {fileID: 4245933108415537184, guid: 0f52f767c0c92214089ec3d167713a41, type: 3}
+  - {fileID: 5445870656964918526, guid: 617890a906a38d54ca294be2d4ed5ef9, type: 3}
+  - {fileID: 3255613294796919355, guid: 78eceb4bdf5a33a48b7fdce818e5e51e, type: 3}
+  - {fileID: 6680910749519522786, guid: ae869ec5f63ebf94a92d9016499c0b9a, type: 3}
+  - {fileID: 2130656330987501936, guid: ee99fbdfcf302be4e8693d8ca331aac8, type: 3}
+  - {fileID: 2984906009131609274, guid: f6d0d9a6c6ff59a42b16666b537573f6, type: 3}
+--- !u!1 &869870997
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 869870998}
+  - component: {fileID: 869870999}
+  m_Layer: 0
+  m_Name: Corals (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &869870998
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 869870997}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 3.87, y: -5.24, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1035773356}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &869870999
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 869870997}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25811224a8e34e34db1f9e3db23730d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coral_pref:
+  - {fileID: 4916887208621170808, guid: cd3ec07aedbd685498579e3e2cabbe17, type: 3}
+  - {fileID: 3475885561739985868, guid: 50944680aa0ab2c4d9b1273a0d530002, type: 3}
+  - {fileID: 4245933108415537184, guid: 0f52f767c0c92214089ec3d167713a41, type: 3}
+  - {fileID: 5445870656964918526, guid: 617890a906a38d54ca294be2d4ed5ef9, type: 3}
+  - {fileID: 3255613294796919355, guid: 78eceb4bdf5a33a48b7fdce818e5e51e, type: 3}
+  - {fileID: 6680910749519522786, guid: ae869ec5f63ebf94a92d9016499c0b9a, type: 3}
+  - {fileID: 2130656330987501936, guid: ee99fbdfcf302be4e8693d8ca331aac8, type: 3}
+  - {fileID: 2984906009131609274, guid: f6d0d9a6c6ff59a42b16666b537573f6, type: 3}
+--- !u!1 &875628562
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 875628563}
+  - component: {fileID: 875628564}
+  m_Layer: 0
+  m_Name: Corals (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &875628563
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 875628562}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 3.87, y: -5.24, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1266380166}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &875628564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 875628562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25811224a8e34e34db1f9e3db23730d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coral_pref:
+  - {fileID: 4916887208621170808, guid: cd3ec07aedbd685498579e3e2cabbe17, type: 3}
+  - {fileID: 3475885561739985868, guid: 50944680aa0ab2c4d9b1273a0d530002, type: 3}
+  - {fileID: 4245933108415537184, guid: 0f52f767c0c92214089ec3d167713a41, type: 3}
+  - {fileID: 5445870656964918526, guid: 617890a906a38d54ca294be2d4ed5ef9, type: 3}
+  - {fileID: 3255613294796919355, guid: 78eceb4bdf5a33a48b7fdce818e5e51e, type: 3}
+  - {fileID: 6680910749519522786, guid: ae869ec5f63ebf94a92d9016499c0b9a, type: 3}
+  - {fileID: 2130656330987501936, guid: ee99fbdfcf302be4e8693d8ca331aac8, type: 3}
+  - {fileID: 2984906009131609274, guid: f6d0d9a6c6ff59a42b16666b537573f6, type: 3}
 --- !u!1 &897022743
 GameObject:
   m_ObjectHideFlags: 0
@@ -1632,6 +2887,8 @@ GameObject:
   - component: {fileID: 897022747}
   - component: {fileID: 897022746}
   - component: {fileID: 897022745}
+  - component: {fileID: 897022749}
+  - component: {fileID: 897022748}
   m_Layer: 5
   m_Name: RemoveFriendsButton
   m_TagString: Untagged
@@ -1754,6 +3011,100 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 897022743}
   m_CullTransparentMesh: 1
+--- !u!114 &897022748
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 897022743}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 897022749}
+          m_TargetAssemblyTypeName: ButtonEfect, Assembly-CSharp
+          m_MethodName: OnPointerEnter
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventID: 1
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 897022749}
+          m_TargetAssemblyTypeName: ButtonEfect, Assembly-CSharp
+          m_MethodName: OnPointerExit
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+--- !u!114 &897022749
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 897022743}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1a0ec46efe3e924b8271cb0f018c146, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &916515932
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 916515933}
+  m_Layer: 0
+  m_Name: Corals
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &916515933
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 916515932}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.3649738, y: -4.9193916, z: -0.18413582}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 605107465}
+  - {fileID: 485403794}
+  - {fileID: 133437930}
+  - {fileID: 1266380166}
+  - {fileID: 250925154}
+  - {fileID: 1035773356}
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &929653920
 GameObject:
   m_ObjectHideFlags: 0
@@ -1766,6 +3117,8 @@ GameObject:
   - component: {fileID: 929653924}
   - component: {fileID: 929653923}
   - component: {fileID: 929653922}
+  - component: {fileID: 929653926}
+  - component: {fileID: 929653925}
   m_Layer: 5
   m_Name: MenuButton
   m_TagString: Untagged
@@ -1900,6 +3253,147 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 929653920}
   m_CullTransparentMesh: 1
+--- !u!114 &929653925
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 929653920}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 929653926}
+          m_TargetAssemblyTypeName: ButtonEfect, Assembly-CSharp
+          m_MethodName: OnPointerEnter
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventID: 1
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 929653926}
+          m_TargetAssemblyTypeName: ButtonEfect, Assembly-CSharp
+          m_MethodName: OnPointerExit
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+--- !u!114 &929653926
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 929653920}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1a0ec46efe3e924b8271cb0f018c146, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &963619995
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 963619997}
+  - component: {fileID: 963619996}
+  m_Layer: 0
+  m_Name: LeftWall
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!212 &963619996
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963619995}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &963619997
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963619995}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -20.69, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 42.20689, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &970261823
 GameObject:
   m_ObjectHideFlags: 0
@@ -1912,6 +3406,8 @@ GameObject:
   - component: {fileID: 970261827}
   - component: {fileID: 970261826}
   - component: {fileID: 970261825}
+  - component: {fileID: 970261829}
+  - component: {fileID: 970261828}
   m_Layer: 5
   m_Name: LeaveButton
   m_TagString: Untagged
@@ -2034,6 +3530,152 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 970261823}
   m_CullTransparentMesh: 1
+--- !u!114 &970261828
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 970261823}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 970261829}
+          m_TargetAssemblyTypeName: ButtonEfect, Assembly-CSharp
+          m_MethodName: OnPointerEnter
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventID: 1
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 970261829}
+          m_TargetAssemblyTypeName: ButtonEfect, Assembly-CSharp
+          m_MethodName: OnPointerExit
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+--- !u!114 &970261829
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 970261823}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1a0ec46efe3e924b8271cb0f018c146, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &975331290
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 975331291}
+  - component: {fileID: 975331292}
+  m_Layer: 0
+  m_Name: Corals (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &975331291
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 975331290}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -7.14, y: -4.26, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 605107465}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &975331292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 975331290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25811224a8e34e34db1f9e3db23730d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coral_pref:
+  - {fileID: 4916887208621170808, guid: cd3ec07aedbd685498579e3e2cabbe17, type: 3}
+  - {fileID: 3475885561739985868, guid: 50944680aa0ab2c4d9b1273a0d530002, type: 3}
+  - {fileID: 4245933108415537184, guid: 0f52f767c0c92214089ec3d167713a41, type: 3}
+  - {fileID: 5445870656964918526, guid: 617890a906a38d54ca294be2d4ed5ef9, type: 3}
+  - {fileID: 3255613294796919355, guid: 78eceb4bdf5a33a48b7fdce818e5e51e, type: 3}
+  - {fileID: 6680910749519522786, guid: ae869ec5f63ebf94a92d9016499c0b9a, type: 3}
+  - {fileID: 2130656330987501936, guid: ee99fbdfcf302be4e8693d8ca331aac8, type: 3}
+  - {fileID: 2984906009131609274, guid: f6d0d9a6c6ff59a42b16666b537573f6, type: 3}
+--- !u!1 &1035773355
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1035773356}
+  m_Layer: 0
+  m_Name: Corals (5)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1035773356
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1035773355}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -7.435026, y: -7.0506086, z: 0.040190637}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 617377859}
+  - {fileID: 869870998}
+  - {fileID: 36369281}
+  - {fileID: 1110145097}
+  - {fileID: 1485431142}
+  m_Father: {fileID: 916515933}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1082617475
 GameObject:
   m_ObjectHideFlags: 0
@@ -2169,6 +3811,196 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1082617475}
   m_CullTransparentMesh: 1
+--- !u!1 &1098026076
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1098026078}
+  - component: {fileID: 1098026077}
+  m_Layer: 0
+  m_Name: DownWall
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!212 &1098026077
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1098026076}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &1098026078
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1098026076}
+  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: -0, y: 20.69, z: 0}
+  m_LocalScale: {x: 1, y: 42.379467, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+--- !u!1 &1110145096
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1110145097}
+  - component: {fileID: 1110145098}
+  m_Layer: 0
+  m_Name: Corals (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1110145097
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1110145096}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -5.28, y: 3.24, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1035773356}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1110145098
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1110145096}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25811224a8e34e34db1f9e3db23730d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coral_pref:
+  - {fileID: 4916887208621170808, guid: cd3ec07aedbd685498579e3e2cabbe17, type: 3}
+  - {fileID: 3475885561739985868, guid: 50944680aa0ab2c4d9b1273a0d530002, type: 3}
+  - {fileID: 4245933108415537184, guid: 0f52f767c0c92214089ec3d167713a41, type: 3}
+  - {fileID: 5445870656964918526, guid: 617890a906a38d54ca294be2d4ed5ef9, type: 3}
+  - {fileID: 3255613294796919355, guid: 78eceb4bdf5a33a48b7fdce818e5e51e, type: 3}
+  - {fileID: 6680910749519522786, guid: ae869ec5f63ebf94a92d9016499c0b9a, type: 3}
+  - {fileID: 2130656330987501936, guid: ee99fbdfcf302be4e8693d8ca331aac8, type: 3}
+  - {fileID: 2984906009131609274, guid: f6d0d9a6c6ff59a42b16666b537573f6, type: 3}
+--- !u!1 &1149439072
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1149439073}
+  - component: {fileID: 1149439074}
+  m_Layer: 0
+  m_Name: Corals (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1149439073
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1149439072}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -7.14, y: -4.26, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 133437930}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1149439074
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1149439072}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25811224a8e34e34db1f9e3db23730d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coral_pref:
+  - {fileID: 4916887208621170808, guid: cd3ec07aedbd685498579e3e2cabbe17, type: 3}
+  - {fileID: 3475885561739985868, guid: 50944680aa0ab2c4d9b1273a0d530002, type: 3}
+  - {fileID: 4245933108415537184, guid: 0f52f767c0c92214089ec3d167713a41, type: 3}
+  - {fileID: 5445870656964918526, guid: 617890a906a38d54ca294be2d4ed5ef9, type: 3}
+  - {fileID: 3255613294796919355, guid: 78eceb4bdf5a33a48b7fdce818e5e51e, type: 3}
+  - {fileID: 6680910749519522786, guid: ae869ec5f63ebf94a92d9016499c0b9a, type: 3}
+  - {fileID: 2130656330987501936, guid: ee99fbdfcf302be4e8693d8ca331aac8, type: 3}
+  - {fileID: 2984906009131609274, guid: f6d0d9a6c6ff59a42b16666b537573f6, type: 3}
 --- !u!1 &1169416059
 GameObject:
   m_ObjectHideFlags: 0
@@ -2181,6 +4013,8 @@ GameObject:
   - component: {fileID: 1169416063}
   - component: {fileID: 1169416062}
   - component: {fileID: 1169416061}
+  - component: {fileID: 1169416065}
+  - component: {fileID: 1169416064}
   m_Layer: 5
   m_Name: SendButton
   m_TagString: Untagged
@@ -2303,6 +4137,63 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1169416059}
   m_CullTransparentMesh: 1
+--- !u!114 &1169416064
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1169416059}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1169416065}
+          m_TargetAssemblyTypeName: ButtonEfect, Assembly-CSharp
+          m_MethodName: OnPointerEnter
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventID: 1
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1169416065}
+          m_TargetAssemblyTypeName: ButtonEfect, Assembly-CSharp
+          m_MethodName: OnPointerExit
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+--- !u!114 &1169416065
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1169416059}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1a0ec46efe3e924b8271cb0f018c146, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1172160701
 GameObject:
   m_ObjectHideFlags: 0
@@ -2696,6 +4587,42 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1256052445}
   m_CullTransparentMesh: 1
+--- !u!1 &1266380165
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1266380166}
+  m_Layer: 0
+  m_Name: Corals (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1266380166
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1266380165}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 12.364974, y: 5.8693914, z: 0.040190637}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 422079552}
+  - {fileID: 875628563}
+  - {fileID: 485405751}
+  - {fileID: 488239885}
+  - {fileID: 340213374}
+  m_Father: {fileID: 916515933}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1301945866
 GameObject:
   m_ObjectHideFlags: 0
@@ -2775,6 +4702,59 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1301945866}
   m_CullTransparentMesh: 1
+--- !u!1 &1377618170
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1377618171}
+  - component: {fileID: 1377618172}
+  m_Layer: 0
+  m_Name: Corals (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1377618171
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1377618170}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -7.14, y: -4.26, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 485403794}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1377618172
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1377618170}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25811224a8e34e34db1f9e3db23730d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coral_pref:
+  - {fileID: 4916887208621170808, guid: cd3ec07aedbd685498579e3e2cabbe17, type: 3}
+  - {fileID: 3475885561739985868, guid: 50944680aa0ab2c4d9b1273a0d530002, type: 3}
+  - {fileID: 4245933108415537184, guid: 0f52f767c0c92214089ec3d167713a41, type: 3}
+  - {fileID: 5445870656964918526, guid: 617890a906a38d54ca294be2d4ed5ef9, type: 3}
+  - {fileID: 3255613294796919355, guid: 78eceb4bdf5a33a48b7fdce818e5e51e, type: 3}
+  - {fileID: 6680910749519522786, guid: ae869ec5f63ebf94a92d9016499c0b9a, type: 3}
+  - {fileID: 2130656330987501936, guid: ee99fbdfcf302be4e8693d8ca331aac8, type: 3}
+  - {fileID: 2984906009131609274, guid: f6d0d9a6c6ff59a42b16666b537573f6, type: 3}
 --- !u!1 &1402614141
 GameObject:
   m_ObjectHideFlags: 0
@@ -2931,6 +4911,165 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1402614141}
   m_CullTransparentMesh: 1
+--- !u!1 &1409566256
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1409566257}
+  - component: {fileID: 1409566258}
+  m_Layer: 0
+  m_Name: Corals (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1409566257
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1409566256}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 3.87, y: -5.24, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 133437930}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1409566258
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1409566256}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25811224a8e34e34db1f9e3db23730d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coral_pref:
+  - {fileID: 4916887208621170808, guid: cd3ec07aedbd685498579e3e2cabbe17, type: 3}
+  - {fileID: 3475885561739985868, guid: 50944680aa0ab2c4d9b1273a0d530002, type: 3}
+  - {fileID: 4245933108415537184, guid: 0f52f767c0c92214089ec3d167713a41, type: 3}
+  - {fileID: 5445870656964918526, guid: 617890a906a38d54ca294be2d4ed5ef9, type: 3}
+  - {fileID: 3255613294796919355, guid: 78eceb4bdf5a33a48b7fdce818e5e51e, type: 3}
+  - {fileID: 6680910749519522786, guid: ae869ec5f63ebf94a92d9016499c0b9a, type: 3}
+  - {fileID: 2130656330987501936, guid: ee99fbdfcf302be4e8693d8ca331aac8, type: 3}
+  - {fileID: 2984906009131609274, guid: f6d0d9a6c6ff59a42b16666b537573f6, type: 3}
+--- !u!1 &1414369847
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1414369848}
+  - component: {fileID: 1414369849}
+  m_Layer: 0
+  m_Name: Corals (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1414369848
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1414369847}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 6.75, y: 0.62, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 605107465}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1414369849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1414369847}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25811224a8e34e34db1f9e3db23730d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coral_pref:
+  - {fileID: 4916887208621170808, guid: cd3ec07aedbd685498579e3e2cabbe17, type: 3}
+  - {fileID: 3475885561739985868, guid: 50944680aa0ab2c4d9b1273a0d530002, type: 3}
+  - {fileID: 4245933108415537184, guid: 0f52f767c0c92214089ec3d167713a41, type: 3}
+  - {fileID: 5445870656964918526, guid: 617890a906a38d54ca294be2d4ed5ef9, type: 3}
+  - {fileID: 3255613294796919355, guid: 78eceb4bdf5a33a48b7fdce818e5e51e, type: 3}
+  - {fileID: 6680910749519522786, guid: ae869ec5f63ebf94a92d9016499c0b9a, type: 3}
+  - {fileID: 2130656330987501936, guid: ee99fbdfcf302be4e8693d8ca331aac8, type: 3}
+  - {fileID: 2984906009131609274, guid: f6d0d9a6c6ff59a42b16666b537573f6, type: 3}
+--- !u!1 &1427760644
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1427760645}
+  - component: {fileID: 1427760646}
+  m_Layer: 0
+  m_Name: Corals (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1427760645
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1427760644}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -7.14, y: -4.26, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 250925154}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1427760646
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1427760644}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25811224a8e34e34db1f9e3db23730d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coral_pref:
+  - {fileID: 4916887208621170808, guid: cd3ec07aedbd685498579e3e2cabbe17, type: 3}
+  - {fileID: 3475885561739985868, guid: 50944680aa0ab2c4d9b1273a0d530002, type: 3}
+  - {fileID: 4245933108415537184, guid: 0f52f767c0c92214089ec3d167713a41, type: 3}
+  - {fileID: 5445870656964918526, guid: 617890a906a38d54ca294be2d4ed5ef9, type: 3}
+  - {fileID: 3255613294796919355, guid: 78eceb4bdf5a33a48b7fdce818e5e51e, type: 3}
+  - {fileID: 6680910749519522786, guid: ae869ec5f63ebf94a92d9016499c0b9a, type: 3}
+  - {fileID: 2130656330987501936, guid: ee99fbdfcf302be4e8693d8ca331aac8, type: 3}
+  - {fileID: 2984906009131609274, guid: f6d0d9a6c6ff59a42b16666b537573f6, type: 3}
 --- !u!1 &1430763218
 GameObject:
   m_ObjectHideFlags: 0
@@ -2995,6 +5134,7 @@ GameObject:
   - component: {fileID: 1439226515}
   - component: {fileID: 1439226514}
   - component: {fileID: 1439226516}
+  - component: {fileID: 1439226518}
   - component: {fileID: 1439226517}
   m_Layer: 0
   m_Name: RoomManager
@@ -3068,6 +5208,72 @@ MonoBehaviour:
   sceneViewId: 1
   InstantiationId: 0
   isRuntimeInstantiated: 0
+--- !u!114 &1439226518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1439226513}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd04e06a66e014c478659e0ccd5f78c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  point_pref: {fileID: 1116891871622513299, guid: ffbf9f39c12431946909018bd8ed67e6, type: 3}
+--- !u!1 &1485431141
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1485431142}
+  - component: {fileID: 1485431143}
+  m_Layer: 0
+  m_Name: Corals (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1485431142
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1485431141}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 6.75, y: 0.62, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1035773356}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1485431143
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1485431141}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25811224a8e34e34db1f9e3db23730d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coral_pref:
+  - {fileID: 4916887208621170808, guid: cd3ec07aedbd685498579e3e2cabbe17, type: 3}
+  - {fileID: 3475885561739985868, guid: 50944680aa0ab2c4d9b1273a0d530002, type: 3}
+  - {fileID: 4245933108415537184, guid: 0f52f767c0c92214089ec3d167713a41, type: 3}
+  - {fileID: 5445870656964918526, guid: 617890a906a38d54ca294be2d4ed5ef9, type: 3}
+  - {fileID: 3255613294796919355, guid: 78eceb4bdf5a33a48b7fdce818e5e51e, type: 3}
+  - {fileID: 6680910749519522786, guid: ae869ec5f63ebf94a92d9016499c0b9a, type: 3}
+  - {fileID: 2130656330987501936, guid: ee99fbdfcf302be4e8693d8ca331aac8, type: 3}
+  - {fileID: 2984906009131609274, guid: f6d0d9a6c6ff59a42b16666b537573f6, type: 3}
 --- !u!1 &1508820835
 GameObject:
   m_ObjectHideFlags: 0
@@ -3080,6 +5286,8 @@ GameObject:
   - component: {fileID: 1508820839}
   - component: {fileID: 1508820838}
   - component: {fileID: 1508820837}
+  - component: {fileID: 1508820841}
+  - component: {fileID: 1508820840}
   m_Layer: 5
   m_Name: FriendsInputField (TMP)
   m_TagString: Untagged
@@ -3244,6 +5452,116 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1508820835}
   m_CullTransparentMesh: 1
+--- !u!114 &1508820840
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1508820835}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1508820841}
+          m_TargetAssemblyTypeName: ButtonEfect, Assembly-CSharp
+          m_MethodName: OnPointerEnter
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventID: 1
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1508820841}
+          m_TargetAssemblyTypeName: ButtonEfect, Assembly-CSharp
+          m_MethodName: OnPointerExit
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+--- !u!114 &1508820841
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1508820835}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1a0ec46efe3e924b8271cb0f018c146, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1539892603
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1539892604}
+  - component: {fileID: 1539892605}
+  m_Layer: 0
+  m_Name: Corals (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1539892604
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1539892603}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 6.75, y: 0.62, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 485403794}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1539892605
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1539892603}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25811224a8e34e34db1f9e3db23730d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coral_pref:
+  - {fileID: 4916887208621170808, guid: cd3ec07aedbd685498579e3e2cabbe17, type: 3}
+  - {fileID: 3475885561739985868, guid: 50944680aa0ab2c4d9b1273a0d530002, type: 3}
+  - {fileID: 4245933108415537184, guid: 0f52f767c0c92214089ec3d167713a41, type: 3}
+  - {fileID: 5445870656964918526, guid: 617890a906a38d54ca294be2d4ed5ef9, type: 3}
+  - {fileID: 3255613294796919355, guid: 78eceb4bdf5a33a48b7fdce818e5e51e, type: 3}
+  - {fileID: 6680910749519522786, guid: ae869ec5f63ebf94a92d9016499c0b9a, type: 3}
+  - {fileID: 2130656330987501936, guid: ee99fbdfcf302be4e8693d8ca331aac8, type: 3}
+  - {fileID: 2984906009131609274, guid: f6d0d9a6c6ff59a42b16666b537573f6, type: 3}
 --- !u!1 &1548123427
 GameObject:
   m_ObjectHideFlags: 0
@@ -3256,6 +5574,8 @@ GameObject:
   - component: {fileID: 1548123431}
   - component: {fileID: 1548123430}
   - component: {fileID: 1548123428}
+  - component: {fileID: 1548123433}
+  - component: {fileID: 1548123432}
   m_Layer: 5
   m_Name: UserNameInputField (TMP)
   m_TagString: Untagged
@@ -3420,6 +5740,147 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1548123427}
   m_CullTransparentMesh: 1
+--- !u!114 &1548123432
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1548123427}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1548123433}
+          m_TargetAssemblyTypeName: ButtonEfect, Assembly-CSharp
+          m_MethodName: OnPointerEnter
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventID: 1
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1548123433}
+          m_TargetAssemblyTypeName: ButtonEfect, Assembly-CSharp
+          m_MethodName: OnPointerExit
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+--- !u!114 &1548123433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1548123427}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1a0ec46efe3e924b8271cb0f018c146, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1574761191
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1574761193}
+  - component: {fileID: 1574761192}
+  m_Layer: 0
+  m_Name: UpWall
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!212 &1574761192
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1574761191}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &1574761193
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1574761191}
+  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: -0, y: -20.69, z: 0}
+  m_LocalScale: {x: 1, y: 42.379467, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!1 &1592464922
 GameObject:
   m_ObjectHideFlags: 0
@@ -3647,6 +6108,59 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1757967083}
   m_CullTransparentMesh: 1
+--- !u!1 &1759508335
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1759508336}
+  - component: {fileID: 1759508337}
+  m_Layer: 0
+  m_Name: Corals (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1759508336
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1759508335}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 6.75, y: 0.62, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 250925154}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1759508337
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1759508335}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25811224a8e34e34db1f9e3db23730d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coral_pref:
+  - {fileID: 4916887208621170808, guid: cd3ec07aedbd685498579e3e2cabbe17, type: 3}
+  - {fileID: 3475885561739985868, guid: 50944680aa0ab2c4d9b1273a0d530002, type: 3}
+  - {fileID: 4245933108415537184, guid: 0f52f767c0c92214089ec3d167713a41, type: 3}
+  - {fileID: 5445870656964918526, guid: 617890a906a38d54ca294be2d4ed5ef9, type: 3}
+  - {fileID: 3255613294796919355, guid: 78eceb4bdf5a33a48b7fdce818e5e51e, type: 3}
+  - {fileID: 6680910749519522786, guid: ae869ec5f63ebf94a92d9016499c0b9a, type: 3}
+  - {fileID: 2130656330987501936, guid: ee99fbdfcf302be4e8693d8ca331aac8, type: 3}
+  - {fileID: 2984906009131609274, guid: f6d0d9a6c6ff59a42b16666b537573f6, type: 3}
 --- !u!1 &1760224823
 GameObject:
   m_ObjectHideFlags: 0
@@ -3727,6 +6241,59 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1760224823}
   m_CullTransparentMesh: 1
+--- !u!1 &1778350311
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1778350312}
+  - component: {fileID: 1778350313}
+  m_Layer: 0
+  m_Name: Corals
+  m_TagString: Untagged
+  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1778350312
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1778350311}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.2, y: -0.36, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 485403794}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1778350313
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1778350311}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25811224a8e34e34db1f9e3db23730d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coral_pref:
+  - {fileID: 4916887208621170808, guid: cd3ec07aedbd685498579e3e2cabbe17, type: 3}
+  - {fileID: 3475885561739985868, guid: 50944680aa0ab2c4d9b1273a0d530002, type: 3}
+  - {fileID: 4245933108415537184, guid: 0f52f767c0c92214089ec3d167713a41, type: 3}
+  - {fileID: 5445870656964918526, guid: 617890a906a38d54ca294be2d4ed5ef9, type: 3}
+  - {fileID: 3255613294796919355, guid: 78eceb4bdf5a33a48b7fdce818e5e51e, type: 3}
+  - {fileID: 6680910749519522786, guid: ae869ec5f63ebf94a92d9016499c0b9a, type: 3}
+  - {fileID: 2130656330987501936, guid: ee99fbdfcf302be4e8693d8ca331aac8, type: 3}
+  - {fileID: 2984906009131609274, guid: f6d0d9a6c6ff59a42b16666b537573f6, type: 3}
 --- !u!1 &1896409497
 GameObject:
   m_ObjectHideFlags: 0
@@ -3739,6 +6306,8 @@ GameObject:
   - component: {fileID: 1896409500}
   - component: {fileID: 1896409499}
   - component: {fileID: 1896409501}
+  - component: {fileID: 1896409503}
+  - component: {fileID: 1896409502}
   m_Layer: 5
   m_Name: TextMessageInputField (TMP)
   m_TagString: Untagged
@@ -3903,6 +6472,116 @@ MonoBehaviour:
   m_isRichTextEditingAllowed: 0
   m_LineLimit: 0
   m_InputValidator: {fileID: 0}
+--- !u!114 &1896409502
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1896409497}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1896409503}
+          m_TargetAssemblyTypeName: ButtonEfect, Assembly-CSharp
+          m_MethodName: OnPointerEnter
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventID: 1
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1896409503}
+          m_TargetAssemblyTypeName: ButtonEfect, Assembly-CSharp
+          m_MethodName: OnPointerExit
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+--- !u!114 &1896409503
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1896409497}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1a0ec46efe3e924b8271cb0f018c146, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1962977281
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1962977282}
+  - component: {fileID: 1962977283}
+  m_Layer: 0
+  m_Name: Corals (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1962977282
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1962977281}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 3.87, y: -5.24, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 485403794}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1962977283
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1962977281}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25811224a8e34e34db1f9e3db23730d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coral_pref:
+  - {fileID: 4916887208621170808, guid: cd3ec07aedbd685498579e3e2cabbe17, type: 3}
+  - {fileID: 3475885561739985868, guid: 50944680aa0ab2c4d9b1273a0d530002, type: 3}
+  - {fileID: 4245933108415537184, guid: 0f52f767c0c92214089ec3d167713a41, type: 3}
+  - {fileID: 5445870656964918526, guid: 617890a906a38d54ca294be2d4ed5ef9, type: 3}
+  - {fileID: 3255613294796919355, guid: 78eceb4bdf5a33a48b7fdce818e5e51e, type: 3}
+  - {fileID: 6680910749519522786, guid: ae869ec5f63ebf94a92d9016499c0b9a, type: 3}
+  - {fileID: 2130656330987501936, guid: ee99fbdfcf302be4e8693d8ca331aac8, type: 3}
+  - {fileID: 2984906009131609274, guid: f6d0d9a6c6ff59a42b16666b537573f6, type: 3}
 --- !u!1 &1977255792
 GameObject:
   m_ObjectHideFlags: 0
@@ -4185,6 +6864,8 @@ GameObject:
   - component: {fileID: 2009336538}
   - component: {fileID: 2009336537}
   - component: {fileID: 2009336536}
+  - component: {fileID: 2009336540}
+  - component: {fileID: 2009336539}
   m_Layer: 5
   m_Name: HideButton
   m_TagString: Untagged
@@ -4319,6 +7000,63 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2009336534}
   m_CullTransparentMesh: 1
+--- !u!114 &2009336539
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2009336534}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 2009336540}
+          m_TargetAssemblyTypeName: ButtonEfect, Assembly-CSharp
+          m_MethodName: OnPointerEnter
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventID: 1
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 2009336540}
+          m_TargetAssemblyTypeName: ButtonEfect, Assembly-CSharp
+          m_MethodName: OnPointerExit
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+--- !u!114 &2009336540
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2009336534}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1a0ec46efe3e924b8271cb0f018c146, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2028588789
 GameObject:
   m_ObjectHideFlags: 0
@@ -4466,6 +7204,8 @@ GameObject:
   - component: {fileID: 2065585324}
   - component: {fileID: 2065585323}
   - component: {fileID: 2065585322}
+  - component: {fileID: 2065585326}
+  - component: {fileID: 2065585325}
   m_Layer: 5
   m_Name: LoginButton
   m_TagString: Untagged
@@ -4588,6 +7328,63 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2065585320}
   m_CullTransparentMesh: 1
+--- !u!114 &2065585325
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2065585320}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 2065585326}
+          m_TargetAssemblyTypeName: ButtonEfect, Assembly-CSharp
+          m_MethodName: OnPointerEnter
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventID: 1
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 2065585326}
+          m_TargetAssemblyTypeName: ButtonEfect, Assembly-CSharp
+          m_MethodName: OnPointerExit
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+--- !u!114 &2065585326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2065585320}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1a0ec46efe3e924b8271cb0f018c146, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2066604515
 GameObject:
   m_ObjectHideFlags: 0
@@ -5049,6 +7846,8 @@ GameObject:
   - component: {fileID: 2088609144}
   - component: {fileID: 2088609143}
   - component: {fileID: 2088609142}
+  - component: {fileID: 2088609146}
+  - component: {fileID: 2088609145}
   m_Layer: 5
   m_Name: AddFriendsButton
   m_TagString: Untagged
@@ -5171,3 +7970,60 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2088609140}
   m_CullTransparentMesh: 1
+--- !u!114 &2088609145
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2088609140}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 2088609146}
+          m_TargetAssemblyTypeName: ButtonEfect, Assembly-CSharp
+          m_MethodName: OnPointerEnter
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventID: 1
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 2088609146}
+          m_TargetAssemblyTypeName: ButtonEfect, Assembly-CSharp
+          m_MethodName: OnPointerExit
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+--- !u!114 &2088609146
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2088609140}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1a0ec46efe3e924b8271cb0f018c146, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

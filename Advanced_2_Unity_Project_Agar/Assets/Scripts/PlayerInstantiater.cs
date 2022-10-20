@@ -11,7 +11,8 @@ public class PlayerInstantiater : MonoBehaviour
     {
         if (SceneManager.GetActiveScene().name == "game")
         {
-            player = PhotonNetwork.Instantiate(player_pref.name, Vector3.zero, Quaternion.identity);
+            Vector3 posPlayer = new Vector3(Random.Range(-19f, 19f), Random.Range(-19f, 19f));
+            player = PhotonNetwork.Instantiate(player_pref.name, posPlayer, Quaternion.identity);
             player.GetComponent<SpriteRenderer>().color = Color.green; // «м≥нити кол≥р гравц€
         }
     }
