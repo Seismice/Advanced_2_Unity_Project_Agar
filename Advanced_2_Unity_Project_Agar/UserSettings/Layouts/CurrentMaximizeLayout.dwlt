@@ -166,7 +166,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 19727
+  controlID: 15709
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -186,8 +186,8 @@ MonoBehaviour:
     y: 0
     width: 268
     height: 376
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 6}
   m_Panes:
   - {fileID: 6}
@@ -224,9 +224,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: d6250000
+      m_SelectedIDs: 62650000
       m_LastClickedID: 0
-      m_ExpandedIDs: c82cffff142dffff742dffffe62dffff4e3effff9a3effff4641ffffb841ffffbc65ffff666bffffac6fffffa076ffffa47affffec7affff847dffffe27dffffec81ffff5a9cffff72acffffbeacffff68afffffdaafffff12beffff4ec1ffff2cc6ffff74c6ffff0ac9ffff68c9ffff7ccdffff8ee5ffff36ebffff8eedffffd6edffff58f0ffff68f0ffffbcf2ffff64f6ffff34f8ffff9ef9ffff24fbffff
+      m_ExpandedIDs: 4a5effff8265ffff426bffff367cffff2ea5ffff78a5ffffb0a5ffffc0a5ffff02b8ffff4cb8ffffe4baffff42bbffff96c5ffffdecbffff8eddffff24fbffffb262000004630000226300002a630000beb40000dcb4000036b70000f6b700007ec200003ec30000c8c30000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -523,9 +523,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.6404405, y: -2.1880968, z: -0.15165874}
+    m_Target: {x: -2.7617755, y: 0.43644315, z: -0.16743477}
     speed: 2
-    m_Value: {x: 0.6404405, y: -2.1880968, z: -0.15165874}
+    m_Value: {x: -2.7617755, y: 0.43644315, z: -0.16743477}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -576,9 +576,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 3.1863737
+    m_Target: 4.6128907
     speed: 2
-    m_Value: 3.1863737
+    m_Value: 4.6128907
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -672,22 +672,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets/Scenes
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Unity_Project\GitHub\Advanced_2_Unity_Project_Agar\Advanced_2_Unity_Project_Agar
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 18640000
-    m_LastClickedID: 25624
-    m_ExpandedIDs: 00000000f2630000f4630000f6630000f863000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 60}
+    m_SelectedIDs: 14640000
+    m_LastClickedID: 25620
+    m_ExpandedIDs: 00000000f6630000f8630000fa630000fc63000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -715,7 +715,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000f2630000f4630000f6630000f863000000ca9a3bffffff7f
+    m_ExpandedIDs: 00000000f6630000f8630000fa630000fc63000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -740,9 +740,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: d6250000
-    m_LastClickedInstanceID: 9686
-    m_HadKeyboardFocusLastEvent: 0
+    m_SelectedInstanceIDs: 62650000
+    m_LastClickedInstanceID: 25954
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0

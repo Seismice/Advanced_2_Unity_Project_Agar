@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ButtonEfect : MonoBehaviour
 {
@@ -29,5 +30,15 @@ public class ButtonEfect : MonoBehaviour
         {
             GetComponent<RectTransform>().localScale = new Vector2(defaultX, defaultY);
         }
+    }
+
+    public void ChangeColorEnter()
+    {
+        GetComponent<Image>().color = new Color(0.3984375f, 0.66796875f, 0.921875f);
+    }
+
+    public void ChangeColorExit()
+    {
+        GetComponent<Image>().color = new Color(1f, 1f, 1f);
     }
 }
